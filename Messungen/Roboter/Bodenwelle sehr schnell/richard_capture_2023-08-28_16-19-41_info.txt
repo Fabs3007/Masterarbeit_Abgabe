@@ -1,0 +1,3 @@
+Experiment 2023-08-28_16-19-41
+RUN_TYPE 35
+DESC Bodenwelle sehr schnell

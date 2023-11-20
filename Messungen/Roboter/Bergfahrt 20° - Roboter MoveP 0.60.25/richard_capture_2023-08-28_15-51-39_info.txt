@@ -1,0 +1,3 @@
+Experiment 2023-08-28_15-51-39
+RUN_TYPE 1
+DESC Drei Profile (0.2, 0.4 und 0.6m/s) zu Positionen 0.5, 1.2 und 2.4m, dann Rückfahrt mit 0.6m/s
