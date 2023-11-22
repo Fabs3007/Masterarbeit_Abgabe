@@ -79,7 +79,7 @@ h = sp.Matrix([[accx],[accy],[accz],[wx],[wy],[wz]])
 H = h.jacobian([accx, accy, accz, wx, wy, wz,theta])
 
 # Q - Matrix
-Q = np.diag([0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001])
+Q = np.eye(7) * 0.0000015
 # R -Matrix
 R = np.diag([0.0529, 0.00025, 0.0529, 0.00025, 0.0529, 0.00025])
 
