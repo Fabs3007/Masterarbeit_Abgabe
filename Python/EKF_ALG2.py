@@ -91,7 +91,7 @@ def ekf1(H,R1,P1):
     global X_P1
     global S1
     global THETA_PREDICT1
-    Q1 = 0.01500
+    Q1 = 0.000001500
     F = 1
     X_PRED1 = X_P1 + 0.0063*gyro1_y_np
     P_PRED1 = F*P1*F + Q1
