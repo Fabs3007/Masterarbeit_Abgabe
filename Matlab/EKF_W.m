@@ -56,7 +56,7 @@ for i = 1:N-1
 angle_gyr1(i+1) = angle_gyr1(i) + deltat(i)*testprofile(i,8);
 angle_gyr2(i+1) = angle_gyr2(i) + deltat(i)*testprofile(i,14);
 end
-B = 0.00002595;
+B = 0.0000012;
 yZero = zeros(N);
 x_k = [0.001 0.001 0.001];          % init x_
 x_p = [0.001 0.001 0.001];          % init prädiktion
