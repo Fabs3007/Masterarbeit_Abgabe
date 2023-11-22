@@ -69,7 +69,7 @@ H = np.eye(3)
 
 # R -Matrix
 R1 = np.eye(3) * 0.0025
-Q = np .eye(3) * 0.000085
+Q = np .eye(3) * 0.0000015
 R2 = np.diag(np.full(6,11000))
 
 S = np.zeros((6,6),dtype=float)
