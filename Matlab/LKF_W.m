@@ -57,7 +57,7 @@ x_hat2 = zeros(N,1);
 
     % Process Noise Covariance fix Values [not tuned]
         
-    Q = 0.0000055;
+    Q = 0.0000015;
 
     % Measurement Covariance Noise [not tuned]
 
